@@ -1,6 +1,6 @@
 ## Chess :: Maxims and Software Tools
 
-- Random chess quotes, shell script: ___ATTN___  
+- Linux bash script for random chess quotes: https://git.io/chess-quote
 
 
 ## Chess insights conveyed by quotes and maxims
@@ -140,7 +140,7 @@ Also join our chat at [Gitter] to share your wisdom.
 
 ---
 
-Revision date : 2017-08-18
+Revision date : 2017-08-19
 
 [chess]:        https://git.io/chess "Shortcut to rsvp/chess"
 [editor]:       https://rsvp.github.com "Adriano rsvp.github.com"
