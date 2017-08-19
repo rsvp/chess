@@ -1,0 +1,85 @@
+#!/usr/bin/env bash
+#              bash 4.3.11(1)   Linux 3.13.0 Ubuntu 14.04.3   Date : 2017-08-18
+#
+# _______________|  chess-quote : Chess quote(s) from https://git.io/chess
+#
+#           Usage:  chess-quote [regex='.'] [N=1] 
+#                          where regex means regular expression.
+#
+#       Exammples:  $ ./chess-quote         # One random quote
+#                   $ ./chess-quote mate 2  # Two random quotes on "mate"
+#                   $ ./chess-quote . 3     # Three very random quotes
+#
+#    Dependencies:  curl
+#                   shuf
+#
+#  CHANGE LOG  LATEST version available: https://github.com/rsvp/chess
+#  2017-08-18  First version.
+
+
+#           _____ PREAMBLE_v3: settings, variables, and error handling.
+#
+LC_ALL=POSIX
+#      locale means "ASCII, US English, no special rules, 
+#      output per ISO and RFC standards." 
+#      Esp. use ASCII encoding for glob and sorting characters. 
+shopt -s   extglob
+#     ^set extended glob for pattern matching.
+shopt -s   failglob
+#         ^failed pattern matching signals error.
+set -e
+#   ^errors checked: immediate exit if a command has non-zero status. 
+set -o pipefail
+#   ^exit status on fail within pipe, not (default) last command.
+set -u
+#   ^unassigned variables shall be errors.
+#    Example of default VARIABLE ASSIGNMENT:  arg1=${1:-'foo'}
+
+regex=${1:-'.'}
+nquotes=${2:-'1'}
+
+program=${0##*/}   #  similar to using basename
+memf=$( mktemp /dev/shm/88_${program}_tmp.XXXXXXXXXX )
+errf=$( mktemp /dev/shm/88_${program}_tmp.XXXXXXXXXX )
+
+
+cleanup () {
+     #  Delete temporary files, then optionally exit given status.
+     local status=${1:-'0'}
+     rm -f $memf $errf
+     [ $status = '-1' ] ||  exit $status      #  thus -1 prevents exit.
+} #--------------------------------------------------------------------
+warn () {
+     #  Message with basename to stderr.          Usage: warn "message"
+     echo -e "\n !!  ${program}: $1 "  >&2
+} #--------------------------------------------------------------------
+die () {
+     #  Exit with status of most recent command or custom status, after
+     #  cleanup and warn.      Usage: command || die "message" [status]
+     local status=${2:-"$?"}
+     cat $errf >&2
+     cleanup -1  &&   warn "$1"  &&  exit $status
+} #--------------------------------------------------------------------
+trap "die 'SIG disruption, but cleanup finished.' 114" 1 2 3 15
+#    Cleanup after INTERRUPT: 1=SIGHUP, 2=SIGINT, 3=SIGQUIT, 15=SIGTERM
+trap "die 'unhandled ERR via trap, but cleanup finished.' 116" ERR
+#    Cleanup after command failure unless it's part of a test clause.
+#
+# _______________     ::  BEGIN  Script ::::::::::::::::::::::::::::::::::::::::
+
+
+#  Retrieve the latest README.md and filter: 
+curl -skL https://git.io/chessraw                 2>  $errf  \
+     |  grep '^* '  |  grep -Ei "$regex" > $memf  2>> $errf  \
+     ||  die "grep filtration FAIL: $regex" 113
+
+
+#  Then select random number of quotes and format them:
+shuf -n $nquotes $memf 2>> $errf  |  sed -e 's/^* //'
+
+
+
+cleanup    #  Instead of: trap arg EXIT
+# _______________ EOS ::  END of Script ::::::::::::::::::::::::::::::::::::::::
+
+#  vim: set fileencoding=utf-8 ff=unix tw=78 ai syn=sh :
