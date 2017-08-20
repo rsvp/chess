@@ -1,6 +1,12 @@
-## Any comment on your one-line quote or maxim?
+[Kindly add further details regarding your PULL REQUEST below.]
 
-Kindly add historical notes, additional context, etc.
+## If applicable, please explain your software fix or enhancement:
+
+
+
+## If applicable, any comment on your one-line quote or maxim?
+
+
 
 ---
 
