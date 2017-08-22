@@ -1,6 +1,10 @@
 ## Chess :: Maxims and Software Tools
 
-- Linux bash script for random chess quotes: https://git.io/chess-quote
+- Cross-platform (Linux, Mac, Windows) **random chess quote**:
+  https://git.io/chess_quote.py compatible with Python 2.7 and 3 series.
+
+- Linux bash script for random chess quote(s): https://git.io/chess-quote
+  supports *multiple* quotes per call and regular expression for filtration.
 
 
 ## Chess insights conveyed by quotes and maxims
@@ -214,7 +218,7 @@ Also join our chat at [Gitter] to share your wisdom.
 
 ---
 
-Revision date : 2017-08-19
+Revision date : 2017-08-21
 
 [chess]:        https://git.io/chess "Shortcut to rsvp/chess"
 [editor]:       https://rsvp.github.com "Adriano rsvp.github.com"
