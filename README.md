@@ -36,7 +36,6 @@ Also join our chat at [Gitter] to share your wisdom.
 * A master looks at every move he would like to make, especially the impossible ones.
 * A master must envisage himself as a cross between an ascetic monk and a beast of prey.
 * A modest little move may embarrass your opponent more than the biggest threat.
-* A passed pawn increase in strength as the number of pieces on the board diminishes.
 * A passed pawn increases in strength as the number of pieces on the board diminishes.
 * A passion for sacrifices is part of a chess player's nature.
 * A pawn, separated from his fellows, will seldom make a fortune.
@@ -45,7 +44,6 @@ Also join our chat at [Gitter] to share your wisdom.
 * A plan is made for only a few moves, not for the whole game.
 * A plan is the sum of strategic operations executed following ideas arising from positional demands.
 * A player constantly improves his understanding of chess with experience.
-* A player surprised is half beaten.
 * A queen's sacrifice always rejoices the heart.
 * A rook in front of a passed pawn has some explaining to do.
 * A sacrifice is best refuted by accepting it.
@@ -312,7 +310,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Setbacks and losses are both inevitable and essential for improvement.
 * Simplicity, rather than dynamic complications, perhaps is the wisest.
 * Since the passed pawn is a criminal, police surveillance is not sufficient.
-* Some part of a mistake is always correct.
+* Some part of a mistake can be correct.
 * Some people have all the will in the world, but still cannot play good chess.
 * Sometimes we fear that which our opponent had never even considered.
 * Strategy requires thought, tactics require observation.
@@ -348,7 +346,6 @@ Also join our chat at [Gitter] to share your wisdom.
 * The older I get, the more I value pawns.
 * The opening and middle game must be studied in relation to the end game.
 * The opening is the only phase that holds the potential for true creativity.
-* The pawns are the soul of chess.
 * The pin is mightier than the sword.
 * The pleasure of victory is greatly exceeded by the pain of defeat.
 * The power of hanging pawns is their mobility, their ability to create acute situations instantly.
@@ -414,7 +411,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * You need not play well, just help your opponent to play badly.
 * You will have to lose thousands of games before becoming a decent player.
 * You will learn much more from a game you lost than from a game you won.
-* Your chess deteriorates as your body does, since you cannot separate body from mind.
+* Your playing deteriorates as your body does, since mind and body cannot be separated.
 
 ---
 
