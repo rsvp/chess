@@ -5,6 +5,18 @@ within itself. This file simply gives a grand overview of such details
 and the annotations in the commits and tags.*
 
 
+### 2017-09-05  (tag: v1.17.0905)
+
+README.md: Second and third batch of quotes integrated.
+
+Add bin/chess_quote.py: for python2.7 and python3.
+
+Add nb/chess-perft-model.ipynb for functional approximation
+for perft(d), given depth d. Predictions up to depth 30.
+
+Add .gitignore
+
+
 ### 2017-08-19  (tag: v1.17.0819)
 
 Date of birth: 2017-08-18. Add Gitter badge.
