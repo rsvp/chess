@@ -59,6 +59,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * A well-played game should practically be decided during the middlegame.
 * A win by an unsound combination, however showy, fills me with artistic horror.
 * A wing attack is best met by a counterattack in the center.
+* Absolutely no takebacks: take your lumps, face up to consequences.
 * After 1. d4 there are more opportunities for richer play.
 * After a bad middle game, there is hope for the endgame, but then, the moment of truth has arrived.
 * After a mistake, calm yourself and reassess the position.
@@ -68,6 +69,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * All masters have on occasion played a magnificent game, only to lose by a stupid mistake.
 * All that matters on the chessboard is good moves.
 * Always check, for it could be mate.
+* Always put the rook behind the pawn, except when it is incorrect to do so.
 * Always study your opponent's last move.
 * An emotional stake in the game will make you work harder, and remember more.
 * An hour's history of two minds is well told in a game of chess.
@@ -78,6 +80,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Analysis of the most varied positions builds up a player's knowledge and intuition.
 * Analysis, together with a complete concentration, forms a chess player.
 * Analyze your games for mistakes until you no longer make them.
+* Anchor at least one pawn in the center and give it solid support.
 * Apart from blunders, there is nothing more ruinous than routine mechanical development.
 * Approaching victory, do not rush, spend extra time on your important decision.
 * As a relaxation from the severe pursuits of life, chess deserves high commendation.
@@ -102,6 +105,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Be the harshest critic of your own wins.
 * Be well enough prepared so that preparation does not play a role.
 * Bear in mind the outlines of a possible future ending.
+* Begin with either e4 or d4, thus releasing two pieces.
 * Best by test: 1. e4.
 * Black should play to win instead of just steering for equality.
 * Blitz chess kills your ideas.
@@ -196,6 +200,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Do not be afraid of losing, be afraid of playing a game and not learning something.
 * Do not be intimidated by higher ratings.
 * Do not bring out your queen too early.
+* Do not chase pawns at the expense of development.
 * Do not fall in love with the endgame to the exclusion of entire games.
 * Do not indulge in chess to the detriment of more serious avocations.
 * Do not let little details distract you from the bigger picture.
@@ -232,6 +237,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Fortune favors the brave.
 * Get the knights into action before both bishops are developed.
 * Given castling on opposite-sides, attack where your pawn chain is pointing.
+* Given two developing alternatives, select the more aggressive threatening move.
 * Given two opportunities to capture pawns, make the move towards the center.
 * Good attacks win games, but good defense wins championships.
 * Good offense and good defense both begin with good development.
@@ -333,6 +339,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Make your decision, then live or die with it.
 * Making excuses for losing will never help you to win.
 * Many men, many styles: what is chess style but the intangible expression of the will to win.
+* Many won games have been lost due to overconfidence.
 * Mastery essentially consists of analyzing chess positions accurately.
 * Methodical thinking is more useful in chess than inspiration.
 * Minimize distractions.
@@ -364,6 +371,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * One cannot possibly know all about chess.
 * One day you give your opponent a lesson, the next day he gives you one.
 * One does not have to play well, it is sufficient to play better than your opponent.
+* One lost game will teach you more than ten wins.
 * One must make every effort to combat the thoughts and will of the opponent.
 * Only the player with the initiative has the right to attack.
 * Openings teach you openings, but endgames teach you chess!
@@ -397,11 +405,13 @@ Also join our chat at [Gitter] to share your wisdom.
 * Rapid opening play will leave sufficient time for the middlegame.
 * React to a strong unexpected move by reassessing your position calmly.
 * Relentlessly attack pinned pieces, weak pawns, and the exposed king.
+* Religiously follow these maxims, except when it is incorrect to do so.
 * Remember to enjoy the game.
 * Revisit your errors, and work to make sure they do not occur again.
 * Rooks belong behind passed pawns.
 * Satisfaction can lead to a lack of vigilance, then to mistakes and missed opportunities.
 * Search for pieces which have no retreat, and see if they can be captured.
+* Secure the safety of the king by castling early, preferably kingside.
 * Secure your center before beginning a wing attack.
 * Seize the initiative whenever the opportunity presents itself.
 * Setbacks and losses are both inevitable and essential for improvement.
@@ -543,11 +553,12 @@ Also join our chat at [Gitter] to share your wisdom.
 * You will have to lose thousands of games before becoming a decent player.
 * You will learn much more from a game you lost than from a game you won.
 * Your eyes on the wings, your mind on the center.
+* Your pawns in the center will keep enemy pieces away from the best squares.
 * Your playing deteriorates as your body does, since mind and body cannot be separated.
 
 ---
 
-Revision date : 2017-09-17
+Revision date : 2017-09-19
 
 [chess]:        https://git.io/chess "Shortcut to rsvp/chess"
 [editor]:       https://rsvp.github.com "Adriano rsvp.github.com"
