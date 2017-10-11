@@ -5,6 +5,17 @@ within itself. This file simply gives a grand overview of such details
 and the annotations in the commits and tags.*
 
 
+### 2017-10-11  (tag: v1.17.1011)
+
+133 new maxims.
+
+11 new maxims, most of them cited by @fonkap.
+
+57 new maxims, inspired from Sun Tzu.
+
+So this version adds a TOTAL of 201 new maxims.
+
+
 ### 2017-09-05  (tag: v1.17.0905)
 
 README.md: Second and third batch of quotes integrated.
