@@ -28,6 +28,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * A defeatist attitude inevitably leads to disaster.
 * A defense is skillful if your opponent does not know what to attack.
 * A draw can be obtained not only by repeating moves, but also by one weak move.
+* A draw in theory just means equal in battle, so fight on!
 * A gambit opening brings reputation of being a dashing player at the cost of losing.
 * A good plan incorporates many little plans.
 * A good player creates his own luck.
@@ -126,6 +127,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Botvinnik-Kasparov rule for mastery: Thoroughly analyze your own games.
 * Break a bind to free your pieces, even if it costs a pawn.
 * By playing chess, we may learn: first, Foresight; second, Circumspection; third, Caution.
+* By trying to win at all costs, expect to lose from a riposte.
 * Calculate while waiting for your opponent to move.
 * Capture of your opponent's King is the ultimate, but not the first, object of the game.
 * Castle because you must or because you want to, never just because you can.
@@ -185,6 +187,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Chess teaches you to sit calmly and to think about a good idea and to create better ones.
 * Chess trains you to think objectively when you are in trouble.
 * Chess, unlike life, has rules.
+* Choose a battlefield that gives you the best chance of success.
 * Combinations are the poetry of the game, they are to chess what melody is to music.
 * Combinations with a queen sacrifice are among the most striking and memorable.
 * Complicated tactical play favors the side with sounder position.
@@ -194,6 +197,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Confidence is very important, even pretending to be confident.
 * Conform to their tactics until you can act upon a favorable opportunity.
 * Connect your rooks as soon as you can.
+* Continue using a certain opening, if the consequences suit your style.
 * Control the initial excitement you feel when you see something that looks good.
 * Control your feelings, be as cold as a machine.
 * Controlling more than half of the squares confers a distinct advantage.
@@ -253,6 +257,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * For every door the computers have closed, they have opened a new one.
 * Force your opponent to reveal himself, then find his vulnerable spots.
 * Fortune favors the brave.
+* Games in progress are never drawn, perhaps they are equal.
 * Get the knights into action before both bishops are developed.
 * Given castling on opposite-sides, attack where your pawn chain is pointing.
 * Given two developing alternatives, select the more aggressive threatening move.
@@ -303,6 +308,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * If you do not know what to do, find your worst piece and look for a better square.
 * If you don't win, it's not a great tragedy.
 * If you get overly tired from preparations, you will not have enough energy for the tournament.
+* If you know something about your opponent, steer to his weaknesses.
 * If you make a mistake, do not let your opponent see what you are thinking.
 * If you must accept weak pawns, make sure you are compensated.
 * If you reinforce everywhere, you shall be weak everywhere.
@@ -442,6 +448,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Practice endings to master the intricacies of openings and middlegames.
 * Practice makes perfect.
 * Pretend to be inferior so that your opponent may grow arrogant.
+* Prevent your opponent from winning, then wait to deliver a counter-attack.
 * Psychology is the most important factor in chess.
 * Rapid opening play will leave sufficient time for the middlegame.
 * React to a strong unexpected move by reassessing your position calmly.
@@ -458,6 +465,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Seize that which your opponent holds dear.
 * Seize the initiative whenever the opportunity presents itself.
 * Setbacks and losses are both inevitable and essential for improvement.
+* Shuffle around to see if your opponent makes a mistake.
 * Simplicity, rather than dynamic complications, perhaps is the wisest.
 * Since the passed pawn is a criminal, police surveillance is not sufficient.
 * Sit on your hands, think it through, then take action.
@@ -468,16 +476,19 @@ Also join our chat at [Gitter] to share your wisdom.
 * Strike while the iron is hot.
 * Strive for positions that make your opponent uncomfortable.
 * Study composed problems and endgames.
+* Study tactics primarily, endgames secondarily.
 * Studying your current weaknesses can provide great stimulus for future growth.
 * Success is gained by accommodating ourselves to the opponent's purpose.
 * Superior development increases in value relative to the game's openness.
 * Supreme excellence consists in breaking the opponent's resistance.
+* Tactical proficiency is the first requirement for mastery of the game.
 * Tactical trees conceal the strategic picture of the woods where one is likely to get lost.
 * Tactics flow from a superior position.
 * Take whatever your opponent gives, unless you see a good reason not to.
 * Take your time on those decisive moments.
 * Talent can be developed, but first find what you are good at.
 * Tell them nothing when their situation is gloomy.
+* That pawn gained by accepting the Queen's Gambit is illusory.
 * The aim on an open file is the intrusion into the seventh or eighth rank.
 * The art is in avoiding catastrophic losses in key battles.
 * The art of chess: ability to create and to control the tension of battle.
@@ -569,6 +580,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Turning chess into poker and hoping for a bluff is not advisable.
 * Two types of men: those who yield to circumstances and those who aim to control circumstances.
 * Under surging emotions we lose concentration and cease to objectively evaluate the board.
+* Understand the trade-off between structural weakness and dynamic strength.
 * Understanding is far more important than memory.
 * Understanding must be supported by memory.
 * Verify any published analysis before any reliance.
@@ -601,6 +613,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Work hard to acquire the technique of rook endings.
 * World events can seem quite unimportant in comparison to a catastrophe on the chessboard.
 * Years of analysis and minutes of play are completely different.
+* Yet given equality in battle, sometimes a draw should be offered.
 * You can only improve if you love the game.
 * You cannot win at chess if you are kind-hearted.
 * You have to force moves and take chances.
@@ -612,10 +625,11 @@ Also join our chat at [Gitter] to share your wisdom.
 * Your eyes on the wings, your mind on the center.
 * Your pawns in the center will keep enemy pieces away from the best squares.
 * Your playing deteriorates as your body does, since mind and body cannot be separated.
+* Your true ability is only measured only when things get tough.
 
 ---
 
-Revision date : 2017-10-11
+Revision date : 2017-10-16
 
 [chess]:        https://git.io/chess "Shortcut to rsvp/chess"
 [editor]:       https://rsvp.github.com "Adriano rsvp.github.com"
