@@ -45,6 +45,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * A modest little move may embarrass your opponent more than the biggest threat.
 * A passed pawn increases in strength as the number of pieces on the board diminishes.
 * A passion for sacrifices is part of a chess player's nature.
+* A pawn unprotected by another pawn is on the brink of death.
 * A pawn, separated from his fellows, will seldom make a fortune.
 * A pawn, when separated from his fellows, will seldom make a fortune.
 * A pinned piece is not for the taking.
@@ -56,6 +57,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * A rook in front of a passed pawn has some explaining to do.
 * A rook on the seventh rank is sufficient compensation for a pawn.
 * A sacrifice is best refuted by accepting it.
+* A singular attack by a solo piece demonstrates a plan to die.
 * A surprised chess player is half beaten.
 * A sustained initiative is worth some material.
 * A vivid memory, concentration, imagination, and a strong will are mandatory.
@@ -112,6 +114,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Be extremely subtle, to the point of formlessness.
 * Be patient in times of crisis.
 * Be patient while calculating.
+* Be quick, but do not hurry without full development.
 * Be the chess player, not the chess piece.
 * Be the harshest critic of your own wins.
 * Be well enough prepared so that preparation does not play a role.
@@ -230,6 +233,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Drawing conclusions about your weaknesses can provide a great stimulus to further growth.
 * During a game a player lives on his nerves, and at the same time he must be perfectly composed.
 * During unforced good time, anticipate how events will develop, and take the necessary measures.
+* Early queen moves are disastrous because she is susceptible to panic attacks.
 * Epic games are valuable, not for their moves, but for their manner of thinking.
 * Errors are caused by time pressure, discomfort, tension, distractions, and excessive caution.
 * Even a poor plan is better than no plan at all.
@@ -249,6 +253,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Exchange your opponent's defending pieces to make room for your pieces to attack.
 * Exercise patience with your pawns.
 * Failing to open the center at the right moment is a common error.
+* Failure to castle makes your king vulnerable, and prevents the rooks from protecting each other.
 * Fewer pawn islands for more life.
 * Finding the opponent's dispositions will lead to victory.
 * First restrain, next blockade, lastly destroy.
@@ -257,6 +262,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * For every door the computers have closed, they have opened a new one.
 * Force your opponent to reveal himself, then find his vulnerable spots.
 * Fortune favors the brave.
+* French Defense requires patience while defending, and waiting to counterattack.
 * Games in progress are never drawn, perhaps they are equal.
 * Get the knights into action before both bishops are developed.
 * Given castling on opposite-sides, attack where your pawn chain is pointing.
@@ -329,6 +335,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * In life, as in chess, our own pawns are an obstruction.
 * In open games, quickly develop the pieces and bring the king to safety.
 * In order to improve your game, you must study the endgame.
+* In the early game rooks are defensive, but later must become offensive.
 * In the middlegame, the king is merely an extra, but in the endgame he is a star actor.
 * In the midst of chaos, there is also opportunity.
 * Inferior positions are the easiest to play.
@@ -345,6 +352,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * It is not enough to be a good player, you must also play well.
 * It is not the best move that you must seek, but a realizable plan.
 * It is only necessary to see one move ahead as long as you find the best one.
+* It is only the enemy queen that your king cannot directly attack.
 * Just look one move ahead: the best one.
 * Keep the opening simple, but play the middlegame with such brilliance that the game is decisive.
 * Keep torturing with threats until, exhausted and exasperated, he finally makes a losing mistake.
@@ -363,6 +371,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Life is a kind of chess, with struggle, competition, good and ill events.
 * Life is like a game of chess, for it changes with each move.
 * Life is too short for chess.
+* Like basketball, move around and probe, then attack cracks in the defense.
 * Liquidate backward and isolated pawns.
 * Long analysis, wrong analysis.
 * Look at the whole board.
@@ -450,8 +459,10 @@ Also join our chat at [Gitter] to share your wisdom.
 * Pretend to be inferior so that your opponent may grow arrogant.
 * Prevent your opponent from winning, then wait to deliver a counter-attack.
 * Psychology is the most important factor in chess.
+* Put your opponent in a position where he must make two moves in a row.
 * Rapid opening play will leave sufficient time for the middlegame.
 * React to a strong unexpected move by reassessing your position calmly.
+* Recognize the unreality of their unreal threats.
 * Reinforcing every part, weakens every part.
 * Relentlessly attack pinned pieces, weak pawns, and the exposed king.
 * Religiously follow these maxims, except when it is incorrect to do so.
@@ -462,6 +473,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Search for pieces which have no retreat, and see if they can be captured.
 * Secure the safety of the king by castling early, preferably kingside.
 * Secure your center before beginning a wing attack.
+* Seek to open lines and gain space.
 * Seize that which your opponent holds dear.
 * Seize the initiative whenever the opportunity presents itself.
 * Setbacks and losses are both inevitable and essential for improvement.
@@ -584,6 +596,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Understanding is far more important than memory.
 * Understanding must be supported by memory.
 * Verify any published analysis before any reliance.
+* Waste not resources on things which will not help you to win.
 * We learn the habit of hoping for a favorable chance.
 * We learn the habit of not being discouraged by present bad appearances in the state of our affairs.
 * We learn the habit of persevering in the secrets of resources.
@@ -593,6 +606,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * When a combination cannot be obtained, build small advantages.
 * When ahead in material, trade pieces, not pawns.
 * When behind in material, trade pawns, not pieces.
+* When both queens are gone, your king becomes powerful.
 * When cramped, exchange pieces to free your game.
 * When exchanging pieces, the key is not always their value, but what is left on the board.
 * When in doubt, do anything but push a pawn.
@@ -602,12 +616,14 @@ Also join our chat at [Gitter] to share your wisdom.
 * When you absolutely do not know what to do anymore, it is time to panic.
 * When you are behind, balance these two strategies: counter-attack and all-out defense.
 * When you don't know what to play, just wait for a wrong idea to enter your opponent's mind.
+* When you have the advantage, press on, else risk losing your edge.
 * When you lose, you really feel the weight of oneself.
 * When you see a good move, wait, then look for a better one.
 * Whether you prefer chess or sex depends on the position.
 * Whoever sees no other aim than checkmate will never become a good chess player.
 * Win with grace, lose with dignity.
 * Winning is not everything, but losing is nothing.
+* Winning just comes as a relief, while defeats will be crushing.
 * With perfect play, God versus God, chess is a draw.
 * Without error there can be no brilliancy.
 * Work hard to acquire the technique of rook endings.
@@ -629,7 +645,7 @@ Also join our chat at [Gitter] to share your wisdom.
 
 ---
 
-Revision date : 2017-10-16
+Revision date : 2017-11-26
 
 [chess]:        https://git.io/chess "Shortcut to rsvp/chess"
 [editor]:       https://rsvp.github.com "Adriano rsvp.github.com"
