@@ -5,6 +5,11 @@ within itself. This file simply gives a grand overview of such details
 and the annotations in the commits and tags.*
 
 
+### 2017-12-22  (tag: v1.17.1222)
+
+README.md: 14, 16, 47 new maxims, for a total of 77.
+
+
 ### 2017-10-11  (tag: v1.17.1011)
 
 133 new maxims.
