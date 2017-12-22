@@ -18,6 +18,7 @@ Also join our chat at [Gitter] to share your wisdom.
 
 
 * A bad plan is better than none at all.
+* A beginner should play neither Queen's Gambit nor French Defense, but instead, open games.
 * A bold opening can unnerve even the most steely opponent.
 * A champion is afraid of losing, everyone else is afraid of winning.
 * A change in the character of the play will influence your psychological mood.
@@ -27,12 +28,14 @@ Also join our chat at [Gitter] to share your wisdom.
 * A combination seeks to refute false values which leads to an unexpected reassessment.
 * A defeatist attitude inevitably leads to disaster.
 * A defense is skillful if your opponent does not know what to attack.
+* A draw can be obtained by three-fold repetition, but also by one-bad move.
 * A draw can be obtained not only by repeating moves, but also by one weak move.
 * A draw in theory just means equal in battle, so fight on!
 * A gambit opening brings reputation of being a dashing player at the cost of losing.
 * A good plan incorporates many little plans.
 * A good player creates his own luck.
 * A good sacrifice may not be necessarily sound but should leave your opponent dazed and confused.
+* A great chess player is not a great man, for he leaves the world as he found it.
 * A great chess player usually has a very good memory.
 * A knight and queen complement each other, and often are superior to a bishop and queen.
 * A knight entrenched in enemy territory is worth a rook.
@@ -40,12 +43,16 @@ Also join our chat at [Gitter] to share your wisdom.
 * A knight on the rim is grim.
 * A man who will take back a chess move will pick a pocket.
 * A man's wealth, ease, leisure, children, books, which should help him win, often checkmate him.
+* A master knows when to panic.
 * A master looks at every move he would like to make, especially the impossible ones.
 * A master must envisage himself as a cross between an ascetic monk and a beast of prey.
+* A master often considers fewer alternatives than an amateur, this is understanding.
+* A master senses the critical moments in a game.
 * A modest little move may embarrass your opponent more than the biggest threat.
 * A passed pawn increases in strength as the number of pieces on the board diminishes.
 * A passion for sacrifices is part of a chess player's nature.
 * A pawn unprotected by another pawn is on the brink of death.
+* A pawn, exposed to attack and difficult to defend, is weak.
 * A pawn, separated from his fellows, will seldom make a fortune.
 * A pawn, when separated from his fellows, will seldom make a fortune.
 * A pinned piece is not for the taking.
@@ -65,6 +72,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * A win by an unsound combination, however showy, fills me with artistic horror.
 * A wing attack is best met by a counterattack in the center.
 * Absolutely no takebacks: take your lumps, face up to consequences.
+* Activating the worst-placed piece is often the most reliable way of improvement.
 * After 1. d4 there are more opportunities for richer play.
 * After a bad middle game, there is hope for the endgame, but then, the moment of truth has arrived.
 * After a mistake, calm yourself and reassess the position.
@@ -99,6 +107,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * As in life, there are no take-backs: so think before you move.
 * As in life, today's bliss may be tomorrow's poison.
 * As long as an opening is reputed to be weak it can be played.
+* Assume your opponent will play like a machine, but if he falters, punish him.
 * Attack the base of a pawn chain.
 * Attack their weaknesses, and emerge to their surprise.
 * Attack when you have the superior game, or else: lose your advantage.
@@ -137,9 +146,11 @@ Also join our chat at [Gitter] to share your wisdom.
 * Castle early and often.
 * Centralize your pieces to give them power.
 * Chance is practically eliminated in chess, when played between masters.
+* Chess appeals to those who seek that success which life has denied them.
 * Chess can be a matter of vanity.
 * Chess demands total concentration.
 * Chess has been elevated into an art form, but it is simply human nature: a fight.
+* Chess has trailed only the military and pornography in exploiting new technology.
 * Chess is 36% percent psychology.
 * Chess is 99% tactics.
 * Chess is a battle between your aversion to thinking and your aversion to losing.
@@ -148,6 +159,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Chess is a matter of delicate judgement: know when to punch and how to duck.
 * Chess is a meritocracy.
 * Chess is a part of culture, thus if a culture is declining then chess will also decline.
+* Chess is a rare art where composition takes place simultaneously with performance.
 * Chess is a sport, a violent sport.
 * Chess is a test of wills.
 * Chess is an art form where creativity prevails over other factors.
@@ -157,6 +169,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Chess is life, and every game is a new life.
 * Chess is like alcohol or a drug: I have to control it, or it could overwhelm me.
 * Chess is like war on a board.
+* Chess is meditation on combinatorics and geometric proof.
 * Chess is mental torture.
 * Chess is not 99% tactics, but tactics will take up 99% of your time.
 * Chess is not a game of speed, it is a game of speech through actions.
@@ -177,6 +190,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Chess is the gymnasium of the mind.
 * Chess is the only game greater than its players.
 * Chess is the struggle against error.
+* Chess is the triumph of the intellect over lack of imagination.
 * Chess levels rank: title, wealth, politics, religion -- all are forgotten across the board.
 * Chess makes man wiser and clear-sighted.
 * Chess mastery essentially consists of analyzing chess positions accurately.
@@ -189,8 +203,11 @@ Also join our chat at [Gitter] to share your wisdom.
 * Chess strength in general and chess strength in a specific match are not same thing.
 * Chess teaches you to sit calmly and to think about a good idea and to create better ones.
 * Chess trains you to think objectively when you are in trouble.
+* Chess would be laughable, were it not so serious.
 * Chess, unlike life, has rules.
+* Child prodigies have been known in only: mathematics, music, and chess.
 * Choose a battlefield that gives you the best chance of success.
+* Choose your move carefully, in chess as in life.
 * Combinations are the poetry of the game, they are to chess what melody is to music.
 * Combinations with a queen sacrifice are among the most striking and memorable.
 * Complicated tactical play favors the side with sounder position.
@@ -234,6 +251,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * During a game a player lives on his nerves, and at the same time he must be perfectly composed.
 * During unforced good time, anticipate how events will develop, and take the necessary measures.
 * Early queen moves are disastrous because she is susceptible to panic attacks.
+* Endgames should be studied and mastered unto themselves.
 * Epic games are valuable, not for their moves, but for their manner of thinking.
 * Errors are caused by time pressure, discomfort, tension, distractions, and excessive caution.
 * Even a poor plan is better than no plan at all.
@@ -256,7 +274,9 @@ Also join our chat at [Gitter] to share your wisdom.
 * Failure to castle makes your king vulnerable, and prevents the rooks from protecting each other.
 * Fewer pawn islands for more life.
 * Finding the opponent's dispositions will lead to victory.
+* First principle of attack: do not let the opponent develop.
 * First restrain, next blockade, lastly destroy.
+* Fischer almost never has any bad pieces, for he exchanged them.
 * Focus.
 * For a game, chess is too serious, yet for seriousness, too much of a game.
 * For every door the computers have closed, they have opened a new one.
@@ -274,6 +294,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Good positions don't win games, good moves do.
 * Great results can be achieved with small forces.
 * Greatness: the ability to take a risk on a dangerous move at a critical moment.
+* Greatness: trading off pawn structure, and even material, for dynamic use of the pieces.
 * HAL 9000 to astronaut Frank Poole (2001): I'm sorry, Frank, I think you missed it.
 * Half the calculated variations are superfluous, but no one knows in advance which half.
 * Haste is never more dangerous than when you feel victory is within your grasp.
@@ -333,6 +354,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * In chess, as in life, prime opportunity strikes only once.
 * In classic endgames the King is brought up as soon as possible, even if there was no need to hurry.
 * In life, as in chess, our own pawns are an obstruction.
+* In life, unlike chess, the game continues after checkmate.
 * In open games, quickly develop the pieces and bring the king to safety.
 * In order to improve your game, you must study the endgame.
 * In the early game rooks are defensive, but later must become offensive.
@@ -362,11 +384,13 @@ Also join our chat at [Gitter] to share your wisdom.
 * Know your strengths, and limitations.
 * Knowing your opponent enables you to take the offensive.
 * Knowing yourself enables you to maintain the defensive.
+* Knowledge of tactics is the foundation of positional play.
 * Lack of patience is probably the most common reason for a draw which should have been won.
 * Lack of patience is probably the most common reason for losing a game.
 * Learn from your draws and especially your defeats.
 * Leave the pawns alone, except for center and passed pawns.
 * Let the perfectionist play postal chess.
+* Let the perfectionist play postal correspondence.
 * Let your main objective be victory, not lengthy campaigns.
 * Life is a kind of chess, with struggle, competition, good and ill events.
 * Life is like a game of chess, for it changes with each move.
@@ -378,11 +402,13 @@ Also join our chat at [Gitter] to share your wisdom.
 * Look through the eyes of your pieces.
 * Look to pawn structure to drive your plan.
 * Losing your objectivity almost always means losing the game.
+* Luck quantified: how often your opponent fails to punish your blunders.
 * Maintain positional tension, rather than dissipating it too soon.
 * Make certain all your pieces are defended.
 * Make only one ill-considered move, and your opponent's wildest dreams becomes reality.
 * Make your decision, then live or die with it.
 * Making excuses for losing will never help you to win.
+* Man is masterful over a machine, so long as he assigns its goals.
 * Many calculations will lead to victory.
 * Many men, many styles: what is chess style but the intangible expression of the will to win.
 * Many won games have been lost due to overconfidence.
@@ -397,6 +423,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Most book variations have no value because they are mistaken or contain fallacious assumptions.
 * Most combinations are inspired by the player's memories of earlier games.
 * Move to create an advantage.
+* Move your piece in the worst plight, unless you discern an advantage by attacking.
 * My favorite victory is when it is not even clear where my opponent made a mistake.
 * Mystify, mislead, and surprise the enemy.
 * Never bring the queen out too early.
@@ -422,12 +449,16 @@ Also join our chat at [Gitter] to share your wisdom.
 * One does not have to play well, it is sufficient to play better than your opponent.
 * One lost game will teach you more than ten wins.
 * One must make every effort to combat the thoughts and will of the opponent.
+* One shall learn the art of self-control.
+* Only a good bishop can be sacrificed, a bad bishop can only be lost.
 * Only attack squares which are inadequately defended.
 * Only the player with the initiative has the right to attack.
+* Openings merely teach you openings, while endgames will teach you chess.
 * Openings teach you openings, but endgames teach you chess!
 * Opponent's big mistake: If it looks too good to be true, it probably is.
 * Opportunities arrive when least expected.
 * Opportunities multiply as they are seized.
+* Overcome that moment of panic when the scale of disaster is yet unknown.
 * Passed pawns must be pushed.
 * Pawn endings have a forced character, and they can be worked out conclusively.
 * Pawns are so small, almost insignificant, and yet they can depose kings.
@@ -445,6 +476,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Play lots of blitz to practice opening theory.
 * Play the opening like a book, the middle game like a magician, and the endgame like a machine.
 * Play to control the center, whether in the classic or hypermodern style.
+* Play your best chess by postal correspondence.
 * Playing against a machine, the question is not about winning, but whether you will survive.
 * Playing against computer is like playing against an idiot who beats you everytime.
 * Playing blitz chess, one can lose the habit of concentrating for several hours in serious chess.
@@ -452,6 +484,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Playing on both sides of the board is a great strategy.
 * Playing slowly during the early phase to grasp the basic requirements of each position.
 * Ponder and deliberate before making a move.
+* Positional play is preparation for combinations.
 * Positional players slowly take away your space, tie up your pieces, leaving you with nothing to do.
 * Positional sacrifices are more praise-worthy than those based on tactical exactitude.
 * Practice endings to master the intricacies of openings and middlegames.
@@ -462,6 +495,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Put your opponent in a position where he must make two moves in a row.
 * Rapid opening play will leave sufficient time for the middlegame.
 * React to a strong unexpected move by reassessing your position calmly.
+* Recall meaningful relations among the pieces, not just their distribution in space.
 * Recognize the unreality of their unreal threats.
 * Reinforcing every part, weakens every part.
 * Relentlessly attack pinned pieces, weak pawns, and the exposed king.
@@ -507,6 +541,8 @@ Also join our chat at [Gitter] to share your wisdom.
 * The beauty of a move lies not in its appearance but in the thought behind it.
 * The beauty of logic: in chess the best move is often the most beautiful.
 * The best defense is good attack.
+* The center is the Balkans of the chessboard: fighting there may break out at any time.
+* The chess engine reminds us to be humble in our self-assessment.
 * The chess master moves his opponent, and avoids being moved by him.
 * The chessboard explains the movement of time and the higher influences which control the world.
 * The defensive power of a pinned piece is only imaginary.
@@ -514,6 +550,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * The double attack is the principle behind almost all tactics.
 * The endgame is probably where you need the most practice.
 * The essence of chess is thinking about what chess is.
+* The fervor to win is perhaps more important than playing good moves.
 * The first essential for an attack is the will to attack.
 * The game of chess eases our life's struggle.
 * The goal of most endgames is pawn promotion.
@@ -521,18 +558,22 @@ Also join our chat at [Gitter] to share your wisdom.
 * The hardest game to win is a won game.
 * The hardest lesson to learn is to love your enemy.
 * The highest art lies in not allowing your opponent to show you what he can do.
+* The idea comes before the logical argument.
+* The joy in chess is an escape into complete absorption.
 * The main difficulty in making positional exchange sacrifices is psychological caution.
+* The masters distinguished two principal types of the Game: formal and psychological.
 * The middlegame is chess itself with all its attacks, defences, and sacrifices.
 * The middlegame provides the most decisive stage.
 * The moment that you let up is the time that you can be hit by the sucker punch.
 * The most important feature of the chess position is the activity of the pieces.
+* The most important feature of the chess position is the mobility of the pieces.
 * The most important role in pawn endings is played by the king.
 * The most powerful weapon in chess is to have the next move.
 * The move is there, but you must see it.
 * The object is to crush the opponent's mind.
 * The older I get, the more I value pawns.
 * The only way to refute a gambit is to accept it.
-* The opening and middle game must be studied in relation to the end game.
+* The opening and middle game must be studied in relation to the endgame.
 * The opening is the only phase that holds the potential for true creativity.
 * The opportunity to defeat the enemy is provided by the enemy himself.
 * The pin is mightier than the sword.
@@ -559,9 +600,11 @@ Also join our chat at [Gitter] to share your wisdom.
 * The worst calamities arise from hesitation.
 * Theoretically it is almost certain that the game is a draw.
 * There are more adventures on a chessboard than on all the seas of the world.
+* There are no heroes in chess.
 * There are no signposts, such as "checkmate in 3," which will give alert.
 * There are no sound studies, only ones which have not been busted yet.
 * There are positions which must not be contested.
+* There are several varieties of weak pawns: isolated, doubled, too advanced, retarded.
 * There are some situations in chess where luck plays a part.
 * There is no remorse like the remorse of chess.
 * There is nothing more precious than the bishop pair.
@@ -588,6 +631,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Trade your passive pieces for your opponent's active pieces.
 * Train every day to stay in top shape, chess is a matter of daily training.
 * True sacrifice involves a change in risk requiring foresight and fantasy.
+* Try not to offer a draw which will send spectators into uncontrollable laughter.
 * Try to play blindfold games.
 * Turning chess into poker and hoping for a bluff is not advisable.
 * Two types of men: those who yield to circumstances and those who aim to control circumstances.
@@ -596,6 +640,7 @@ Also join our chat at [Gitter] to share your wisdom.
 * Understanding is far more important than memory.
 * Understanding must be supported by memory.
 * Verify any published analysis before any reliance.
+* Wait for it: there is always a moment when your opponent will miss an opportunity.
 * Waste not resources on things which will not help you to win.
 * We learn the habit of hoping for a favorable chance.
 * We learn the habit of not being discouraged by present bad appearances in the state of our affairs.
@@ -631,11 +676,13 @@ Also join our chat at [Gitter] to share your wisdom.
 * Years of analysis and minutes of play are completely different.
 * Yet given equality in battle, sometimes a draw should be offered.
 * You can only improve if you love the game.
+* You can retreat pieces, but not the pawns, so always think twice about pawn moves.
 * You cannot win at chess if you are kind-hearted.
 * You have to force moves and take chances.
 * You must believe in yourself.
 * You must have confidence in yourself, and this confidence should be based on fact.
 * You need not play well, just help your opponent to play badly.
+* You shall see your mistake, just as you lift your finger off the piece.
 * You will have to lose thousands of games before becoming a decent player.
 * You will learn much more from a game you lost than from a game you won.
 * Your eyes on the wings, your mind on the center.
@@ -645,7 +692,7 @@ Also join our chat at [Gitter] to share your wisdom.
 
 ---
 
-Revision date : 2017-11-26
+Shortcut to this page: https://git.io/chess | Revision date : 2017-12-22
 
 [chess]:        https://git.io/chess "Shortcut to rsvp/chess"
 [editor]:       https://rsvp.github.com "Adriano rsvp.github.com"
