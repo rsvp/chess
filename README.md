@@ -6,6 +6,9 @@
 - Linux bash script for random chess quote(s): https://git.io/chess-quote
   supports *multiple* quotes per call and regular expression for filtration.
 
+- Linux bash script to get and browse latest games from players at Lichess.org: 
+  https://git.io/lich-game supports both rated and casual games.
+
 
 ## Chess insights conveyed by quotes and maxims
 
@@ -692,7 +695,7 @@ Also join our chat at [Gitter] to share your wisdom.
 
 ---
 
-Shortcut to this page: https://git.io/chess | Revision date : 2017-12-22
+Shortcut to this page: https://git.io/chess | Revision date : 2018-01-25
 
 [chess]:        https://git.io/chess "Shortcut to rsvp/chess"
 [editor]:       https://rsvp.github.com "Adriano rsvp.github.com"
