@@ -1,0 +1,127 @@
+#!/usr/bin/env bash
+#              bash 4.3.11(1)   Linux 3.13.0   git 1.9.1      Date : 2018-01-24
+#
+# _______________|  lich-game : get game(s) from Lichess.org
+#
+#           Usage:  $ lich-game [username=Fins] [rated=1,0] [games=10] [-u|-v]
+#                   # Option -v produces verbose json with_moves PGN.
+#
+#         Example:  $ ./lich-game Fins 1 3 -u
+#                   #  Retrieves URLs of last three RATED games played by Fins.
+#                   #  URLs appear in reverse chronological order.
+#
+#                   $ ./lich-game Fins 0
+#                   #  Retrieves URLs of last ten CASUAL games played by Fins.
+#                   #  Note how the positional default options are in effect.
+#
+#    Dependencies:  curl
+#                   Lichess REST API https://github.com/ornicar/lila#http-api
+#
+#  CHANGE LOG  Latest version at https://git.io/chess
+#  2018-01-24  First version.
+
+
+#           _____ PREAMBLE_v3: settings, variables, and error handling.
+#
+LC_ALL=POSIX
+#      locale means "ASCII, US English, no special rules,
+#      output per ISO and RFC standards."
+#      Esp. use ASCII encoding for glob and sorting characters.
+shopt -s   extglob
+#     ^set extended glob for pattern matching.
+shopt -s   failglob
+#         ^failed pattern matching signals error.
+set -e
+#   ^errors checked: immediate exit if a command has non-zero status.
+set -o pipefail
+#   ^exit status on fail within pipe, not (default) last command.
+set -u
+#   ^unassigned variables shall be errors.
+#    Example of default VARIABLE ASSIGNMENT:  arg1=${1:-'foo'}
+
+user=${1:-'Fins'}        # John Bartholomew, IM from Minnesota.
+rated=${2:-'1'}          # Use '1' for rated only games, else '0' for casual.
+games=${3:-'10'}         # Number of games.
+format=${4:-'-u'}        # '-u' for URL only, verbose '-v' for json.
+pager=${PAGER:-'less'}
+
+
+program=${0##*/}   #  similar to using basename
+memf=$( mktemp /dev/shm/88_${program}_tmp.XXXXXXXXXX )
+errf=$( mktemp /dev/shm/88_${program}_tmp.XXXXXXXXXX )
+
+
+cleanup () {
+     #  Delete temporary files, then optionally exit given status.
+     local status=${1:-'0'}
+     rm -f $memf $errf
+     [ $status = '-1' ] ||  exit $status      #  thus -1 prevents exit.
+} #--------------------------------------------------------------------
+warn () {
+     #  Message with basename to stderr.          Usage: warn "message"
+     echo -e "\n !!  ${program}: $1 "  >&2
+} #--------------------------------------------------------------------
+die () {
+     #  Exit with status of most recent command or custom status, after
+     #  cleanup and warn.      Usage: command || die "message" [status]
+     local status=${2:-"$?"}
+     #  cat $errf >&2
+     cleanup -1  &&   warn "$1"  &&  exit $status
+} #--------------------------------------------------------------------
+trap "die 'SIG disruption, but cleanup finished.' 114" 1 2 3 15
+#    Cleanup after INTERRUPT: 1=SIGHUP, 2=SIGINT, 3=SIGQUIT, 15=SIGTERM
+trap "die 'unhandled ERR via trap, but cleanup finished.' 116" ERR
+#    Cleanup after command failure unless it's part of a test clause.
+#
+# _______________     ::  BEGIN  Script ::::::::::::::::::::::::::::::::::::::::
+
+
+api="https://lichess.org/api/user/${user}/games"
+
+
+#       __________ API: Games are returned by descendant chronological order.
+#                       All parameters are optional.
+#  
+#  NAME            TYPE   DEFAULT   DESCRIPTION
+#  nb              int      10      maximum number of games to return per page
+#  page            int       1      for pagination
+#  with_analysis   1 or 0    0      include deep analysis data in the result
+#  with_moves      1 or 0    0      include a list of PGN moves
+#  with_opening    1 or 0    0      include opening information
+#  with_movetimes  1 or 0    0      include move time information
+#  rated           1 or 0    -      rated games only
+#  playing         1 or 0    -      games in progress only
+
+
+curl -s "${api}?nb=${games}&rated=${rated}&with_moves=1" > $memf \
+     ||  die "No connection to Lichess API using curl."  115
+
+
+case "$format" in
+
+        #  Get URL for game(s), from winner's POV:
+   -u)  sed -e 's;url":";\n;g'  $memf  \
+           |  grep '^https'            \
+           |  sed -e 's/"}.*$//'       ;;
+           #  $pager                   ;;
+
+
+        #  CATCH-ALL is VERBOSE -v format.
+    *)  $pager $memf                   ;;
+esac
+
+
+
+cleanup    #  Instead of: trap arg EXIT
+# _______________ EOS ::  END of Script ::::::::::::::::::::::::::::::::::::::::
+
+
+
+#       __________ 2018-01-24 SAMPLE verbose JSON:  $ ./lich-game Fins 1 2 -v
+#                  One long line...
+#  
+#  {"currentPage":1,"maxPerPage":2,"currentPageResults":[{"id":"JHMYPHzN","rated":true,"variant":"standard","speed":"bullet","perf":"bu llet","createdAt":1516674376074,"lastMoveAt":1516674446094,"turns":76,"color":"white","status":"mate","clock":{"initial":60,"increme nt":0,"totalTime":60},"players":{"white":{"userId":"mole_creature","rating":2162,"ratingDiff":-2},"black":{"userId":"fins","rating": 2627,"ratingDiff":2}},"moves":"g4 e5 Bg2 Ne7 g5 Ng6 h4 d5 h5 Nf4 Bf1 Qxg5 d3 Ng2+ Bxg2 Qxg2 Rh4 Qxg1+ Kd2 Qg5+ Kc3 Qxh4 b3 Qd4+ Kd2  Qxa1 Ba3 Bxa3 Nxa3 Qxd1+ Kxd1 Be6 Nb5 Na6 c4 dxc4 bxc4 Ke7 Kd2 c6 Ke3 cxb5 Ke4 bxc4 Kxe5 cxd3 exd3 Rad8 d4 Rd5+ Ke4 Rhd8 f4 Rxd4+ Kf 3 Kf6 Ke3 Kf5 h6 Re4+ Kf3 Rxf4+ Kg3 Rd3+ Kg2 Bd5+ Kg1 Rg4+ Kh2 gxh6 a4 Rc4 a5 Rc2+ Kg1 Rd1#","winner":"black","url":"https://lichess .org/JHMYPHzN/black"},{"id":"V7PrcVq5","rated":true,"variant":"standard","speed":"bullet","perf":"bullet","createdAt":1516674276436, "lastMoveAt":1516674368763,"turns":61,"color":"black","status":"resign","clock":{"initial":60,"increment":0,"totalTime":60},"players ":{"white":{"userId":"fins","rating":2625,"ratingDiff":2},"black":{"userId":"apacherev","rating":2073,"ratingDiff":-1}},"moves":"e4  e5 Nf3 Nc6 d4 Nf6 dxe5 Nxe4 Qd5 f5 Bc4 Qe7 O-O Kd8 Nc3 Nxc3 bxc3 Qe6 Qd3 Nxe5 Nxe5 Qxe5 Bg5+ Be7 Rfe1 Qxe1+ Rxe1 Bxg5 Qxf5 Bd2 Re2 B xc3 Qf7 Bf6 f4 d6 h3 Bd7 g4 Re8 g5 Bd4+ Kh2 Bb6 Rxe8+ Bxe8 Qxg7 a6 Be6 c5 Qf6+ Kc7 f5 Kc6 g6 hxg6 fxg6 Bxg6 Qxg6 Bc7 Kh1","winner":" white","url":"https://lichess.org/V7PrcVq5/white"}],"nbResults":2602,"previousPage":null,"nextPage":2,"nbPages":1301}
+#
+
+
+#  vim: set fileencoding=utf-8 ff=unix tw=78 ai syn=sh :
