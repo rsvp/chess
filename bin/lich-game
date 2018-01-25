@@ -1,23 +1,24 @@
 #!/usr/bin/env bash
-#              bash 4.3.11(1)   Linux 3.13.0   git 1.9.1      Date : 2018-01-24
+#              bash 4.3.11(1)   Linux 3.13.0   git 1.9.1      Date : 2018-01-25
 #
-# _______________|  lich-game : get game(s) from Lichess.org
+# _______________|  lich-game : get/browse games from Lichess.org
 #
-#           Usage:  $ lich-game [username=Fins] [rated=1,0] [games=10] [-u|-v]
-#                   # Option -v produces verbose json with_moves PGN.
+#           Usage:  $ lich-game [user=Fins] [rated=1,0] [games=10] [-b|-u|-v]
+#                   #  Option -v produces verbose JSON with_moves PGN.
 #
 #         Example:  $ ./lich-game Fins 1 3 -u
 #                   #  Retrieves URLs of last three RATED games played by Fins.
 #                   #  URLs appear in reverse chronological order.
 #
 #                   $ ./lich-game Fins 0
-#                   #  Retrieves URLs of last ten CASUAL games played by Fins.
-#                   #  Note how the positional default options are in effect.
+#                   #  Browse the last CASUAL game played by Fins.
 #
 #    Dependencies:  curl
 #                   Lichess REST API https://github.com/ornicar/lila#http-api
+#                   firefox (or modify $browser variable)
 #
-#  CHANGE LOG  Latest version at https://git.io/chess
+#  CHANGE LOG  Latest version https://git.io/chess or https://git.io/lich-game
+#  2018-01-25  parseURL function and browser -b option.
 #  2018-01-24  First version.
 
 
@@ -42,19 +43,21 @@ set -u
 user=${1:-'Fins'}        # John Bartholomew, IM from Minnesota.
 rated=${2:-'1'}          # Use '1' for rated only games, else '0' for casual.
 games=${3:-'10'}         # Number of games.
-format=${4:-'-u'}        # '-u' for URL only, verbose '-v' for json.
+format=${4:-'-b'}        # '-b' to browse, -u' for URLs, '-v' for verbose JSON.
 pager=${PAGER:-'less'}
+browser=${BROWSER:-'firefox'}
 
 
 program=${0##*/}   #  similar to using basename
 memf=$( mktemp /dev/shm/88_${program}_tmp.XXXXXXXXXX )
+mem2=$( mktemp /dev/shm/88_${program}_tmp.XXXXXXXXXX )
 errf=$( mktemp /dev/shm/88_${program}_tmp.XXXXXXXXXX )
 
 
 cleanup () {
      #  Delete temporary files, then optionally exit given status.
      local status=${1:-'0'}
-     rm -f $memf $errf
+     rm -f $memf $mem2 $errf
      [ $status = '-1' ] ||  exit $status      #  thus -1 prevents exit.
 } #--------------------------------------------------------------------
 warn () {
@@ -93,21 +96,35 @@ api="https://lichess.org/api/user/${user}/games"
 #  playing         1 or 0    -      games in progress only
 
 
+#  See sample one-line JSON output below, which becomes held in $memf:
 curl -s "${api}?nb=${games}&rated=${rated}&with_moves=1" > $memf \
      ||  die "No connection to Lichess API using curl."  115
 
 
+parseURL () {
+     #  Make URL list of of game(s), from winner's POV:
+     #      Insert new lines at the start of "https",
+     #      grep those lines, then delete crud endings.
+     sed -e 's/url":"/\n/g'  $memf  \
+          |  grep '^https'          \
+          |  sed -e 's/"}.*$//' 
+}
+
+
+
 case "$format" in
 
-        #  Get URL for game(s), from winner's POV:
-   -u)  sed -e 's;url":";\n;g'  $memf  \
-           |  grep '^https'            \
-           |  sed -e 's/"}.*$//'       ;;
-           #  $pager                   ;;
+        #  List URL(s), then browse the most recent game:
+   -b)  parseURL > $mem2
+        cat $mem2
+        $browser "$(head -n 1 $mem2)"  2> $errf      \
+            ||  die "Browser $browser exists?"  117  ;;
 
+        #  Produce a list of URL(s):
+   -u)  parseURL                                     ;;
 
         #  CATCH-ALL is VERBOSE -v format.
-    *)  $pager $memf                   ;;
+    *)  $pager $memf                                 ;;
 esac
 
 
