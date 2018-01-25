@@ -3,22 +3,23 @@
 #
 # _______________|  lich-game : get/browse games from Lichess.org
 #
-#           Usage:  $ lich-game [user=Fins] [rated=1,0] [games=10] [-b|-u|-v]
+#           Usage:  $ lich-game [user=Fins] [rated=1,0] [-b|-u|-v] [games=10]
 #                   #  Option -v produces verbose JSON with_moves PGN.
 #
-#         Example:  $ ./lich-game Fins 1 3 -u
+#         Example:  $ ./lich-game Fins 1 -u 3
 #                   #  Retrieves URLs of last three RATED games played by Fins.
-#                   #  URLs appear in reverse chronological order.
+#                   #  For -u, URLs will appear in reverse chronological order.
 #
 #                   $ ./lich-game Fins 0
-#                   #  Browse the last CASUAL game played by Fins.
+#                   #  Default -b, browse the last CASUAL game played by Fins.
+#                   #  Just the user name for the last RATED (default) game.
 #
 #    Dependencies:  curl
 #                   Lichess REST API https://github.com/ornicar/lila#http-api
 #                   firefox (or modify $browser variable)
 #
 #  CHANGE LOG  Latest version https://git.io/chess or https://git.io/lich-game
-#  2018-01-25  parseURL function and browser -b option.
+#  2018-01-25  parseURL function and browser -b option. Arg order.
 #  2018-01-24  First version.
 
 
@@ -42,8 +43,8 @@ set -u
 
 user=${1:-'Fins'}        # John Bartholomew, IM from Minnesota.
 rated=${2:-'1'}          # Use '1' for rated only games, else '0' for casual.
-games=${3:-'10'}         # Number of games.
-format=${4:-'-b'}        # '-b' to browse, -u' for URLs, '-v' for verbose JSON.
+format=${3:-'-b'}        # '-b' to browse, -u' for URLs, '-v' for verbose JSON.
+games=${4:-'10'}         # Number of games.
 pager=${PAGER:-'less'}
 browser=${BROWSER:-'firefox'}
 
